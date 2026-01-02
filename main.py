@@ -2,7 +2,6 @@ import typer
 from pathlib import Path
 from collections import deque
 import os
-import re
 
 
 def validate_path(given_path: Path) -> bool:
